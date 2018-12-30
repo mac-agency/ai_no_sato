@@ -3420,7 +3420,7 @@ nav ul a span.badge {
 .row .col {
   float: left;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0 0.75rem;
   min-height: 1px;
 }
@@ -4464,7 +4464,7 @@ html {
 
 @media only screen and (min-width: 0) {
   html {
-    font-size: 14px;
+  /* [disabled]font-size: 14px; */
   }
 }
 

@@ -420,6 +420,13 @@ body {
   margin-bottom: 5px;
 }
 
+.padding_zero {
+  /* [disabled]padding-top: 0px; */
+  padding-right: 0px;
+  padding-left: 0px;
+  /* [disabled]padding-bottom: 0px; */
+}
+
 @media (max-width:320px){
 
 .parallax_h1 {
@@ -447,7 +454,7 @@ body {
 .section_midashi {
   color: hsla(0,0%,25%,1.00);
   font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
-  font-size: 21px;
+  font-size: 19px;
   line-height: 1.4em;
   text-align: center;
 }
@@ -481,6 +488,11 @@ body {
 .drone_caption {
   font-size: 12px;
 }
+
+.read-text {
+  font-size: 16px;
+  line-height: 1.4em;
+}
 }
 
 @media (max-width:375px) and (min-width:321px){
@@ -489,6 +501,7 @@ body {
   font-size: 27px;
   text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
   margin-top: 100px;
+  line-height: 1.5em;
 }
 
 .top_parallax_read {
@@ -531,6 +544,11 @@ body {
 .drone_caption {
   font-size: 12px;
 }
+
+.read-text {
+  font-size: 17px;
+  line-height: 1.4em;
+}
 }
 
 @media (max-width:414px) and (min-width:376px){
@@ -548,7 +566,7 @@ body {
 
 .bn_biglink {
   color: hsla(0,0%,100%,1.00);
-  font-size: 13px;
+  font-size: 22px;
   border-radius: 5px;
   line-height: 0em;
 }
@@ -580,6 +598,11 @@ body {
 
 .drone_caption {
   font-size: 12px;
+}
+
+.read-text {
+  font-size: 17px;
+  line-height: 1.4em;
 }
 }
 
