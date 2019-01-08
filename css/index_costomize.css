@@ -112,9 +112,7 @@ height: 100%;
 }
 
 .bt_padding {
-  padding-top: 24px;
-  padding-bottom: 24px;
-  padding-left: 0px;
+  padding: 24px 0px;
 }
 
 body {
@@ -427,6 +425,11 @@ body {
   /* [disabled]padding-bottom: 0px; */
 }
 
+.footer_text {
+  font-size: 14px;
+  line-height: 1.6em;
+}
+
 @media (max-width:320px){
 
 .parallax_h1 {
@@ -442,7 +445,7 @@ body {
 
 .bn_biglink {
   color: hsla(0,0%,100%,1.00);
-  font-size: 13px;
+  font-size: 18px;
   border-radius: 5px;
   line-height: 0em;
 }
@@ -515,7 +518,7 @@ body {
 
 .bn_biglink {
   color: hsla(0,0%,100%,1.00);
-  font-size: 13px;
+  font-size: 20px;
   border-radius: 5px;
   line-height: 0em;
 }
