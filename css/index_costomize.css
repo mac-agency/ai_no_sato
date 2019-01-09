@@ -632,7 +632,7 @@ body {
 .parallax_h1 {
   font-size: 30px;
   text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
-  margin-top: 100px;
+  margin-top: 20px;
 }
 
 .top_parallax_read {
@@ -662,7 +662,7 @@ body {
 .parallax_h2 {
   color: hsla(174,64%,40%,1.00);
   font-size: 24px;
-  padding-top: 100px;
+  padding-top: 50px;
   margin-top: 0px;
   text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
   line-height: 2em;
