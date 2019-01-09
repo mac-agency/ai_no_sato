@@ -61,6 +61,18 @@
 	
 	<!--個別ページのCSS-->
 <!-- InstanceBeginEditable name="head" -->
+	<script>
+	document.addEventListener('DOMContentLoaded', function() {
+    var elems = document.querySelectorAll('.tooltipped');
+    var instances = M.Tooltip.init(elems, options);
+  });
+
+  // Or with jQuery
+
+  $(document).ready(function(){
+    $('.tooltipped').tooltip();
+  });
+	</script>
 <!-- InstanceEndEditable -->
 </head>
 <body>
@@ -247,6 +259,7 @@
 <div class="section_margin">
   <div class="container">
     <h2 class="section_midashi">あーちゃん店頭販売</h2>
+		<p class="read-text center-align">こちらはインターネットでは販売しておりません。</p>
   </div>
   <div class="container">
     <div class="row">
@@ -308,7 +321,8 @@
             </div>
           </div>
           <div class="row syousai_padding">
-            <div class="col s12"><a href="#" class="btn btn-block btn-flating bn_biglink bt_padding">店頭販売</a></div>
+            <div class="col s12"><!--<a href="#" class="btn btn-block btn-flating bn_biglink bt_padding">店頭販売</a>-->
+						<a class="btn tooltipped btn-block" data-position="bottom" data-tooltip="インターネットでは販売していません。">店頭販売</a></div>
           </div>
           <!--<div class="card-action">
           <a charset="btn btn-block btn-flating bn_biglink bt_padding card-action" href="#">店舗の詳細へ</a>
@@ -367,7 +381,8 @@
             </div>
           </div>
           <div class="row syousai_padding">
-            <div class="col s12"><a href="#" class="btn btn-block btn-flating bn_biglink bt_padding">店頭販売</a></div>
+            <div class="col s12"><!--<a href="#" class="btn btn-block btn-flating bn_biglink bt_padding">店頭販売</a>-->
+						<a class="btn tooltipped btn-block" data-position="bottom" data-tooltip="インターネットでは販売していません。">店頭販売</a></div>
           </div>
           <!--<div class="card-action">
           <a charset="btn btn-block btn-flating bn_biglink bt_padding card-action" href="#">店舗の詳細へ</a>
@@ -398,7 +413,8 @@
             </div>
           </div>
           <div class="row syousai_padding">
-            <div class="col s12"><a href="#" class="btn btn-block btn-flating bn_biglink bt_padding">店頭販売</a></div>
+            <div class="col s12"><!--<a href="#" class="btn btn-block btn-flating bn_biglink bt_padding">店頭販売</a>-->
+						<a class="btn tooltipped btn-block" data-position="bottom" data-tooltip="インターネットでは販売していません。">店頭販売</a></div>
           </div>
           <!--<div class="card-action">
           <a charset="btn btn-block btn-flating bn_biglink bt_padding card-action" href="#">店舗の詳細へ</a>
@@ -438,7 +454,8 @@
             </div>
           </div>
           <div class="row syousai_padding">
-            <div class="col s12"><div class="btn btn-block btn-flating bn_biglink bt_padding">店頭販売</div></div>
+            <div class="col s12"><!--<a href="#" class="btn btn-block btn-flating bn_biglink bt_padding">店頭販売</a>-->
+						<a class="btn tooltipped btn-block" data-position="bottom" data-tooltip="インターネットでは販売していません。">店頭販売</a></div>
           </div>
           <!--<div class="card-action">
           <a charset="btn btn-block btn-flating bn_biglink bt_padding card-action" href="#">店舗の詳細へ</a>
